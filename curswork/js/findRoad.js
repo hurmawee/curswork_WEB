@@ -32,7 +32,6 @@ class Graph{
 
         function handleVertex(vertex) {
             let neighboursList = list[vertex];
-
             neighboursList.forEach(neighbour => {
                 if (!visited[neighbour]) {
                     visited[neighbour] = 1;
@@ -44,13 +43,11 @@ class Graph{
                 }
             });
         }
-
         // перебираем вершины из очереди, пока она не опустеет
         while(queue.length) {
             let activeVertex = queue.shift();
             handleVertex(activeVertex);
         }
-
         return { distance, previous }
     }
     findShortestPath(startVertex, finishVertex) {
@@ -324,7 +321,6 @@ btn.addEventListener('click', function (){
             document.querySelector('.R' + road[i] + '_' + road[i - 1]).classList.add("hidden")
         }
     }
-
     ///чтение ввода пользователя
     if(/^\d+$/.test(inpFrom[1]) || inpFrom==="DIR" || inpFrom==="BIB"){//просмотр на ввод аудитории
         console.log("аудитория")
@@ -347,7 +343,6 @@ btn.addEventListener('click', function (){
         console.log("некорректный ввод")
         return
     }
-
     if(/^\d+$/.test(inpTo[1]) || inpTo==="BIB" || inpTo==="DIR") {//просмотр на ввод аудитории
         console.log("аудитория")
         last2 = document.getElementById('au'+inpTo);
@@ -373,8 +368,6 @@ btn.addEventListener('click', function (){
     }
     last1.style.scale =1.05;
     last2.style.scale =1.05;
-
-
 
     road = graph.findShortestPath(inpFrom,inpTo);
     for(let i=1;i<road.length;i++)
