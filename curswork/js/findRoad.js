@@ -297,18 +297,20 @@ graph.addEdge('2LM', '1LM');
 
 const btn = document.querySelector('.btn_js');
 let road = []
-//последние изменения
 let last1 = document.getElementById('au201');
 let last2 = document.getElementById('au202')
 
 btn.addEventListener('click', function (){
-    console.log(graph)
     let inpFrom = document.getElementById('inputFrom_js').value;
     let inpTo = document.getElementById('inputTo_js').value;
     //проверка на одинаковые аудитории
     if(inpFrom===inpTo)
     {
-        console.log("Они одинаковые")
+        return
+    }
+    //проверка на наличие такой аудитории
+    if(!graph.isVertex(inpTo) || !graph.isVertex(inpFrom))
+    {
         return
     }
     //очищение прошлого пути
@@ -323,57 +325,41 @@ btn.addEventListener('click', function (){
     }
     ///чтение ввода пользователя
     if(/^\d+$/.test(inpFrom[1]) || inpFrom==="DIR" || inpFrom==="BIB"){//просмотр на ввод аудитории
-        console.log("аудитория")
         if(graph.isVertex(inpFrom))//проверка на существования
             last1 = document.getElementById('au'+inpFrom);
         else {
-            console.log("Такой аудитории нет")
             return
         }
     }
     else if(inpFrom[1]==='L') {//просмотр на лестницу
-        console.log("лестница")
         last1 = document.getElementById('lad'+inpFrom);
     }
     else if(inpFrom[1]==='T') {//просмотр на туалет
-        console.log("туалет")
         last1 = document.getElementById('toi'+inpFrom);
     }
     else {
-        console.log("некорректный ввод")
         return
     }
     if(/^\d+$/.test(inpTo[1]) || inpTo==="BIB" || inpTo==="DIR") {//просмотр на ввод аудитории
-        console.log("аудитория")
         last2 = document.getElementById('au'+inpTo);
     }
     else if(inpTo[1]==='L') {//просмотр на лестницу
-        console.log("лестница")
         last2 = document.getElementById('lad'+inpTo);
     }
     else if(inpTo[1]==='T') {//просмотр на туалет
-        console.log("туалет")
         last2 = document.getElementById('toi'+inpTo);
     }
     else {
-        console.log("некорректный ввод")
         return
     }
 
-    //проверка на наличие такой аудитории
-    if(!graph.isVertex(inpTo) || !graph.isVertex(inpFrom))
-    {
-        console.log("Такой аудитории нет")
-        return
-    }
+
     last1.style.scale =1.05;
     last2.style.scale =1.05;
 
     road = graph.findShortestPath(inpFrom,inpTo);
     for(let i=1;i<road.length;i++)
     {
-        console.log(road[i][0],road[i-1][0])
-        console.log('R'+ road[i]+'_'+road[i-1])
         if((Math.abs(road[i][0]-road[i-1][0]))!==1) {
             document.querySelector('.R' + road[i] + '_' + road[i - 1]).classList.remove("hidden")
         }
