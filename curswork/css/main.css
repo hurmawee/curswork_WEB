@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #d2d2d2;
+}
+p{
+    font: 14pt "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    user-select: none;
+    color: #FFFFFF;
+}
+.hidden{
+    display:none;
+}

@@ -1,13 +1,11 @@
 class Graph{
     constructor() {
         this.vertices = {};// список смежности
-
     }
     addVertex(value){
         if(!this.vertices[value])
         {
             this.vertices[value] = [];
-
         }
     }
     addEdge(vertex1, vertex2) {
