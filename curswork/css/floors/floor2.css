@@ -1,0 +1,386 @@
+#toi2TM {
+    width: 10%;
+    height: 15%;
+    border-top-left-radius: 0.3em;
+    background-image: url("../../img/toiletMen.png");
+}
+#au229{
+    width: 10%;
+    height: 15%;
+    top:15%;
+}
+#au228{
+    width: 10%;
+    height: 25%;
+    top:30%;
+}
+#au227{
+    width: 10%;
+    height: 21%;
+    top:55%;
+}
+#au226{
+    width: 10%;
+    height: 12%;
+    top:76%;
+}
+#au225{
+    width: 10%;
+    height: 12%;
+    top:88%;
+    border-bottom-left-radius: 0.3em;
+}
+
+
+#empty1{
+    width: 8%;
+    height: 15%;
+    left: 14%;
+    top:15%;
+    border: 2px solid white;
+    border-right: none;
+    border-radius: 0.5em 0 0 0;
+    background-color: #575791;
+    z-index: 0;
+
+}
+#empty1:after {
+    position: relative;
+    left:99%;
+    top:-2px;
+    content: '';
+    height: 61.5%;
+    width: 59.5%;
+    display: block;
+    border: 2px solid white;
+    background: #575791;
+    border-left: none;
+    border-bottom: none;
+
+}
+#empty1:before {
+    left:87.2%;
+    top:44.5%;
+    content: '';
+    height: 36.58%;
+    width: 69.37%;
+    transform: rotate(-29.14deg);
+    display: block;
+    border-bottom: 2px solid white;
+    background: #575791;
+    position: absolute;
+}
+
+#au238{
+    width: 8%;
+    height: 13.6%;
+    left: 14%;
+    top:29.7%
+}
+#au239{
+    width: 8%;
+    height: 26%;
+    left: 14%;
+    top:43%
+}
+#au224{
+    width: 8%;
+    height: 31%;
+    left: 14%;
+    top:69%;
+    border-right: none;
+
+}
+#au224:after {
+    position: relative;
+    left: 99%;
+    top: 18.5%;
+    content: '';
+    height: 81.5%;
+    width: 59.5%;
+    display: block;
+    border: 2px solid white;
+    background: #575791;
+    border-left: none;
+    border-top: none;
+
+}
+#au224:before {
+    left: 80.2%;
+    top: 6%;
+    content: '';
+    height: 36.58%;
+    width: 67%;
+    transform: rotate(29.14deg);
+    display: block;
+    border-top: 2px solid white;
+    background: #575791;
+    position: absolute;
+}
+#au234{
+    width: 16%;
+    height: 15%;
+    top:9%;
+    left:26.6%;
+    border-radius: 0.5em 0 0 0;
+}
+#au237{
+    width: 19.5%;
+    height: 15%;
+    top:9%;
+    left:42%;
+}
+#au221{
+    width: 34.9%;
+    height: 25%;
+    top:75%;
+    left:26.6%;
+}
+
+#au203{
+    width: 8%;
+    height: 8%;
+    top:12%;
+    left:75%;
+    border-radius: 0.5em 0.5em 0 0;
+}
+#au204{
+    width: 8%;
+    height: 10%;
+    top:20%;
+    left:75%;
+}
+
+#au211{
+    width: 8%;
+    height: 10%;
+    top:45%;
+    left:75%;
+}
+#au213-214{
+    width: 8%;
+    height: 26%;
+    top:55%;
+    left:75%;
+}
+#toi2TW{
+    width: 4%;
+    height: 10%;
+    top:80.6%;
+    left:75%;
+    border-radius: 0 0 0 0.5em;
+    background-image: url("../../img/toiletWomen.png");
+}
+#empty2{
+    width: 4%;
+    height: 10%;
+    top:80.6%;
+    left:79%;
+    border-radius: 0 0 0.5em 0;
+    background-color: #575791;
+    border: 2px solid white;
+}
+#au201{
+    border-top-right-radius: 0.3em;
+    width: 13%;
+    height: 12%;
+    top:0;
+    left:87%;
+}
+#au202{
+    width: 13%;
+    height: 13%;
+    top:12%;
+    left:87%;
+}
+#auDIR{
+    width: 13%;
+    height: 31%;
+    top:25%;
+    left:87%;
+}
+#au209{
+    width: 13%;
+    height: 34%;
+    top:56%;
+    left:87%;
+}
+#au210{
+    width: 13%;
+    height: 10%;
+    top:90%;
+    left:87%;
+    border-bottom-right-radius: 0.3em;
+}
+
+
+
+.R225_224 {
+    left: 11.5%;
+    top:90%;
+    width: 1%;
+    height: 5%;
+}
+.R224_226 {
+    left: 11.5%;
+    top:84%;
+    width: 1%;
+    height: 6%;
+}
+.R226_227 {
+    left: 11.5%;
+    top:60%;
+    width: 1%;
+    height: 24%;
+}
+.R227_239 {
+    left: 11.5%;
+    top:50%;
+    width: 1%;
+    height: 10%;
+}
+.R239_228 {
+    left: 11.5%;
+    top:45%;
+    width: 1%;
+    height: 5%;
+}
+.R228_238 {
+    left: 11.5%;
+    top:38%;
+    width: 1%;
+    height: 7%;
+}
+.R238_229 {
+    left: 11.5%;
+    top:20%;
+    width: 1%;
+    height: 18%;
+}
+.R229_2TM {
+    left: 11.5%;
+    top:12%;
+    width: 1%;
+    height: 8%;
+}
+.R2TM_2A {
+    left: 11.5%;
+    top:12%;
+    width: 14%;
+    height: 2%;
+}
+.R2A_2B {
+    left: 11.5%;
+    top:12%;
+    width: 14%;
+    height: 2%;
+}
+.R2B_2LW {
+    left: 24.5%;
+    top:6%;
+    width: 1%;
+    height: 6%;
+}
+.R2LW_234 {
+    left: 24.5%;
+    top:6%;
+    width: 8%;
+    height: 2%;
+}
+.R234_237 {
+    left: 32.5%;
+    top:6%;
+    width: 20%;
+    height: 2%;
+}
+.R237_2LN {
+    left: 52.5%;
+    top:6%;
+    width: 12%;
+    height: 2%;
+}
+.R2LN_203 {
+    left: 64.5%;
+    top:6%;
+    width: 15%;
+    height: 2%;
+}
+.R203_201 {
+    left: 79.5%;
+    top:6%;
+    width: 6%;
+    height: 2%;
+}
+.R201_202 {
+    left: 84.5%;
+    top:6%;
+    width: 1%;
+    height: 15%;
+}
+.R202_204 {
+    left: 84.5%;
+    top:21%;
+    width: 1%;
+    height: 6%;
+}
+.R204_2LM {
+    left: 84.5%;
+    top:27%;
+    width: 1%;
+    height: 10%;
+}
+.R2LM_DIR {
+    left: 84.5%;
+    top:27%;
+    width: 1%;
+    height: 10%;
+}
+.R211_DIR {
+    left: 84.5%;
+    top:37%;
+    width: 1%;
+    height: 15%;
+}
+.R211_209 {
+    left: 84.5%;
+    top:52%;
+    width: 1%;
+    height: 15%;
+}
+.R213-214_209 {
+    left: 84.5%;
+    top:67%;
+    width: 1%;
+    height: 5%;
+}
+.R213-214_210 {
+    left: 84.5%;
+    top:72%;
+    width: 1%;
+    height: 25%;
+
+}
+.R210_2C {
+    left: 72.5%;
+    top:95%;
+    width: 12%;
+    height: 2%;
+}
+.R2C_2TW{
+    left: 72.5%;
+    top:88%;
+    width: 1%;
+    height: 7%;
+}
+.R2TW_2LS {
+    left: 62.5%;
+    top:88%;
+    width: 10%;
+    height: 2%;
+}
+.R2LS_221{
+    left: 62.5%;
+    top:88%;
+    width: 1%;
+    height: 7%;
+}

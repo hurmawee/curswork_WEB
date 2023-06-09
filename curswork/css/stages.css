@@ -1,0 +1,30 @@
+.stages{
+    height: 30%;
+    width: 5%;
+    position: absolute;
+    margin: auto;
+    top: 0; right: 1%; bottom: 0;left: auto;
+    border-radius: 0.5em;
+    box-shadow: 0.5em 0.5em 0 0 rgba(0, 0, 0, 0.17);
+}
+.button{
+    height: 25%;
+    background-color: #8481B9;
+    font: 24pt Roboto;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    transition: all 1s ease 0s;
+}
+.button p{
+    margin: auto;
+}
+.button:first-child{
+    border-radius: 10% 10% 0 0;
+}
+.button:last-child{
+    border-radius: 0 0 10% 10%;
+}
+.now{
+    background-color: #575791;
+}

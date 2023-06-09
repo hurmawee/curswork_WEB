@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #d2d2d2;
+}
+p{
+    font: 14pt "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    user-select: none;
+    color: #FFFFFF;
+}
+.floor{
+    height: 60%;
+    width: 58%;
+
+    max-width: 1000px;
+    position: absolute;
+    margin: auto;
+    top: 0; right: 8%; bottom: 0;left: auto;
+
+    background-color: #8481B9;
+    box-shadow: 0.5em 0.5em 0 0 rgba(0, 0, 0, 0.17);
+
+    border: 2px solid white;
+    border-radius: 0.5em;
+    z-index: -2;
+
+}
+
+
+.hidden{
+    display:none;
+}
+.block{
+    background-color: #575791;
+    border: 2px solid white;
+    transition: all 1s ease 0s;
+    position: absolute;
+
+}
+
+.block:hover::after {
+    content: attr(data-title);
+    position: absolute; /* Абсолютное позиционирование */
+    top: 100%;
+    font: 12pt Roboto;
+    background: rgba(107, 142, 183, 0.9);
+    color: white;
+    z-index: 99999;
+    border-radius: 0 0 0.3em 0.3em;
+}
+
+.block:hover{
+    scale: 1.15;
+    z-index: 999;
+    cursor: pointer;
+}
+.blockNo{
+    background-color: #575791;
+    border: 2px solid white;
+    transition: all 1s ease 0s;
+    position: absolute;
+}
+.empty{
+    position: absolute;
+    background-color: #d2d2d2;
+    z-index: -1;
+}
+
+.floor p{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top:50%;
+    left: 50%;
+    z-index: 999;
+}
+.toilet{
+    background-color: #575791;
+    border: 2px solid white;
+    transition: all 1s ease 0s;
+    position: absolute;
+    z-index: 998;
+
+    background-size: 37px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.toilet:hover{
+    scale: 1.15;
+    z-index: 999;
+    cursor: pointer;
+}
+.green{
+    background-color: #85cf6e;
+}
+.road{
+    background-color: #ec8a31;
+    position: absolute;
+    z-index: 1000;
+}
+

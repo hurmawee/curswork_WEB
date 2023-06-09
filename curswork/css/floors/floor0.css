@@ -1,0 +1,194 @@
+#auBIB{
+    left: 26.6%;
+    height: 24%;
+    width: 34.7%;
+    z-index: 6;
+}
+#au008{
+    left: 46.3%;
+    height: 25%;
+    top: 75%;
+    width: 15%;
+}
+#au009{
+    left: 31.3%;
+    height: 25%;
+    top: 75%;
+    width: 15%;
+}
+#au010{
+    width: 10%;
+    height: 40%;
+    top:60%;
+    left: 12%;
+}
+#au010:after {
+    position: relative;
+    left: 99%;
+    top: 37%;
+    content: '';
+    height: 63%;
+    width: 59.5%;
+    display: block;
+    border: 2px solid white;
+    background: #575791;
+    border-left: none;
+    border-top: none;
+
+}
+#au010:before {
+    left: 80.2%;
+    top: 26%;
+    content: '';
+    height: 36.58%;
+    width: 67%;
+    transform: rotate(29.14deg);
+    display: block;
+    border-top: 2px solid white;
+    background: #575791;
+    position: absolute;
+}
+#au029{
+    top: -0.5%;
+    width: 15%;
+    height: 48%;
+    left:-25%;
+    border-radius: 0.3em 0 0 0.3em;
+}
+#au020-027{
+    top: 60%;
+    width: 25%;
+    height: 40%;
+    left:75%;
+    border-bottom-right-radius: 0.3em;
+    z-index: 6;
+}
+#empty14 {
+    top: 45%;
+    width: 32.1%;
+    height: 15%;
+    left: -10%;
+    border: 2px solid white;
+    border-right: none;
+    z-index: 5;
+}
+#empty15 {
+    top: 15%;
+    width: 10%;
+    height: 30.5%;
+    left: -10%;
+    border: 2px solid white;
+    border-bottom: none;
+    z-index: 6;
+}
+
+#empty16 {
+    top: -0.5%;
+    width: 10%;
+    height: 15.5%;
+    left: -10%;
+
+    z-index: 5;
+    background-color: #575791;
+    border: 2px solid white;
+}
+
+#empty17 {
+    width: 22%;
+    height: 50%;
+    z-index: 0;
+    background-color: #575791;
+    border: 2px solid white;
+}
+
+#empty18 {
+    top: 60%;
+    width: 12%;
+    height: 40%;
+
+    z-index: 5;
+    background-color: #575791;
+    border: 2px solid white;
+}
+
+#empty19 {
+    left:68.3%;
+    width: 31.7%;
+    height: 45%;
+
+    z-index: -1;
+    background-color: #575791;
+    border: 2px solid white;
+}
+.R029_0A {
+    width: 1%;
+    height: 33%;
+    left: -5%;
+    top:20%;
+}
+.R0A_0B {
+    width: 35%;
+    height: 2%;
+    left: -5%;
+    top:51%;
+}
+.R0B_010 {
+    width: 1%;
+    height: 34%;
+    left: 29%;
+    top:51%;
+}
+.R0B_0D {
+    width: 1%;
+    height: 27%;
+    left: 29%;
+    top:26%;
+}
+.R0D_0LWM {
+    width: 6%;
+    height: 2%;
+    left: 24%;
+    top:26%;
+}
+.R0B_0C {
+    width: 36%;
+    height: 2%;
+    left: 29%;
+    top:51%;
+}
+.R0C_0LN {
+    width: 1%;
+    height: 31%;
+    left: 65%;
+    top:22%;
+}
+.R0C_0LS {
+    width: 1%;
+    height: 26%;
+    left: 65%;
+    top:51%;
+}
+.R010_009 {
+    width: 1%;
+    height: 7%;
+    left: 29%;
+    top:85%;
+}
+.R0LN_BIB {
+    width: 1%;
+    height: 17%;
+    left: 65%;
+    top:5%;
+}
+.R0LS_008 {
+    width: 1%;
+    height: 16%;
+    left: 65%;
+    top:77%;
+}
+.R008_020-027 {
+    width: 9.5%;
+    height: 2%;
+    left: 65%;
+    top:93%;
+}

@@ -1,0 +1,133 @@
+.ladder{
+    background-color: #c26868;
+    border: 2px solid white;
+    transition: all 1s ease 0s;
+    position: absolute;
+
+    background-size: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ladder:hover{
+    scale: 1.15;
+    z-index: 999;
+    cursor: pointer;
+}
+.ladNorth {
+    width: 7%;
+    height: 15%;
+    top:9%;
+    left:61.3%;
+    border-radius:  0 0.5em  0 0;
+    background-image: url("../../img/ladder/lad2.png");
+}
+.ladSouth{
+    width: 7%;
+    height: 12%;
+    top:75%;
+    left:61.3%;
+    border-radius: 0 0 0.5em 0;
+    background-image: url("../../img/ladder/lad3.png");
+}
+.ladWest{
+    border-radius: 0 0 0.5em 0.5em;
+    width: 8%;
+    height: 11%;
+    left: 14%;
+    background-image: url("../../img/ladder/lad4.png");
+}
+.ladMain{
+    width: 8%;
+    height: 15.3%;
+    top:30%;
+    left:75%;
+    background-image: url("../../img/ladder/lad1.png");
+}
+.ladWestMini{
+    left: 20.5%;
+    width: 1.5%;
+    height: 13%;
+    top: 16%;
+}
+.ladMainMini{
+    left: 94%;
+    width: 6%;
+    height: 13%;
+    top: 32%;
+    background-image: url("../../img/ladder/lad1.png");
+}
+.ladWestMini:after {
+    position: relative;
+    left:95%;
+    top:-3%;
+    content: '';
+    height: 61.5%;
+    width: 410%;
+    display: block;
+    border: 2px solid white;
+    border-left: none;
+    border-bottom: none;
+    background: #c26868;
+}
+.ladWestMini:before {
+    left:45%;
+    top:45%;
+    content: '';
+    height: 36.58%;
+    width: 450%;
+    transform: rotate(-26deg);
+    display: block;
+    border-bottom: 2px solid white;
+    background: #c26868;
+    position: absolute;
+    z-index: 5;
+}
+.empty3{
+    width: 6.9%;
+    height: 6%;
+    top:18.4%;
+    left:68.1%;
+    border: 2px solid white;
+    border-bottom: none;
+    z-index: 5;
+}
+.empty4{
+    width: 6.9%;
+    height: 6%;
+    top:74.6%;
+    left:68.1%;
+    border: 2px solid white;
+    border-top: none;
+    z-index: 5;
+}
+.empty5{
+    left: 22%;
+    top: 24%;
+    height: 51%;
+    width: 53%;
+    border: 2px solid white;
+    z-index: 4;
+}
+.empty12 {
+    top: 45%;
+    left: 74.9%;
+    width: 25.1%;
+    height: 15%;
+    border: 2px solid white;
+    border-left: none;
+    z-index: 5;
+}
+.lad4{
+    left: 21%;
+    width: 5%;
+    height: 13%;
+    top: 15%;
+
+    position: absolute;
+
+    background-size: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../../img/ladder/lad4.png");
+    z-index: 5;
+}
